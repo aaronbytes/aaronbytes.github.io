@@ -1,0 +1,28 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>Aaron Ramirez</title>
+    <description>Adventures in tech</description>
+    <link>http://localhost:1313/</link>
+    
+    <language>en</language>
+    <copyright>Copyright 2025, Calvin Tran</copyright>
+    <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo - gohugo.io</generator>
+    <docs>http://cyber.harvard.edu/rss/rss.html</docs>
+    <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/helloworld/</link>
+      <description>&lt;p&gt;Hello, this is my first post on this blog using Hugo!&lt;/p&gt;
+&lt;p&gt;This seems pretty cool, I&amp;rsquo;m excited to use it!&lt;/p&gt;
+</description>
+      <author>Aaron Ramirez</author>
+      <guid>http://localhost:1313/posts/helloworld/</guid>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+  </channel>
+</rss>
