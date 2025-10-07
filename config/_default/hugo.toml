@@ -6,7 +6,7 @@ theme = 'enchanted-lowkey'
 title = 'Aaron Ramirez'
 enableRobotsTXT = true
 summaryLength = 15
-paginate = 5
+pagination.pagerSize = 5
 
 
 [markup]
