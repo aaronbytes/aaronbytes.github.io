@@ -1,0 +1,21 @@
+{{ define "main" }} 
+
+<div class="py-2 flex flex-col gap-1">
+  <h3 class="title-small">{{ .Title }}</h3>
+</div>
+
+    <section>{{ .Content }} </section>
+
+      {{ if gt (len ( where .Site.RegularPages "Section" "blog" )) 0 }}
+      <h4>Latest Posts</h4>
+      <section>
+        {{ range (first .Site.Params.items (where .Site.RegularPages "Section" "blog" ).ByDate.Reverse) }}
+          <p>
+            <time class="g time" datetime="{{ dateFormat "01-02-2006" .Date }}">{{ dateFormat "01/02/2006" .Date }}</time>&nbsp;
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <p>
+        {{ end }}
+      </section>
+      {{ end }}
+
+{{ end }}
