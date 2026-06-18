@@ -78,7 +78,6 @@ We can build BlocksDS' sample ROM by running `make` within VSCode's terminal in 
 
 We then load this file onto our DSPico and run it!
 
+![dsImg](./ds.jpeg)
+
 Now we have a contained dev environment and we can start writing our own NDS programs!
-
-
-
